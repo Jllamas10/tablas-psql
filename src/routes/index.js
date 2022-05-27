@@ -15,6 +15,6 @@ router.post('/materia', createMateria);
 router.delete('/materia/:id', deleteMateria);
 router.put('/materia/:id', updateMateria);
 
-
+console.log('test')
 
 module.exports = router;
